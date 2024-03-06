@@ -134,12 +134,6 @@ import cloudinary
 import cloudinary.uploader
 
 cloudinary.config( 
-  cloud_name = "dafreak", 
-  api_key = "934982389383823", 
-  api_secret = "O-ZsxtEK9tXqeTEUK5gePKCg1dg",
-)
-
-cloudinary.config( 
   cloud_name = os.getenv("CLOUDINARY_CLOUD_NAME"), 
   api_key = os.getenv("CLOUDINARY_API_KEY"), 
   api_secret = os.getenv("CLOUDINARY_API_SECRET"),
